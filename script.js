@@ -5,7 +5,7 @@ let currentOperator = null;
 const displayElement = document.getElementById('display');
 
 function updateDisplay(value) {
-    displayElement.innerText = value;
+    displayElement.innerText = value; 
 }
 
 function appendNumber(number) {
